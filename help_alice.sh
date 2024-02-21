@@ -21,7 +21,7 @@ function dependencies() {
 	# Verify if whiptail is installed
 	if ! [ -x "$(command -v whiptail)" ]; then
 		echo "Error: whiptail is not installed." >&2
-		echo "Please, install if you want to use the GUI"
+		echo "Please, install if you want to use the TUI"
 		echo "Don't know how to install it? Let me help you:"
 		distribution=$(lsb_release -d 2>/dev/null || echo "ups Linux" | awk '{print $2}')
 		echo -e "\t https://lmddgtfy.net/?q=How%20to%20install%20whiptail%20on%20$distribution"
@@ -50,7 +50,7 @@ function false_wait() {
 	} | whiptail --gauge "\nPerforming operations" $height $width 0
 }
 
-function gui_mode() {
+function tui_mode() {
 	title="Help Alice"
 	tput civis
 	if [ -z "$args" ]; then
@@ -183,7 +183,7 @@ done
 if [ "$cli" = true ]; then
 	cli_mode
 else
-	gui_mode
+	tui_mode
 fi
 
 tput cnorm
