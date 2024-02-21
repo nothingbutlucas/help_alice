@@ -25,7 +25,7 @@ function dependencies() {
 		echo "Don't know how to install it? Let me help you:"
 		distribution=$(uname -n)
 		echo -e "\t https://lmddgtfy.net/?q=How%20to%20install%20whiptail%20on%20$distribution"
-		sleep 3
+		cli=true
 	fi
 }
 
@@ -152,11 +152,11 @@ function perform_operations() {
 	fi
 }
 
-dependencies
-
 args=""
 cli=false
 fast=true
+
+dependencies
 
 while getopts "t:chf" arg; do
 	case $arg in
