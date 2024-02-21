@@ -25,7 +25,7 @@ chmod 744 help_alice.sh
 ./help_alice.sh
 ```
 
-By default it will try to run `whipetail`. If it is not available, you can install it or use it on CLI.
+By default it will try to run `whiptail`. If it is not available, you can install it or use it on CLI.
 
 If you want to see all the available options:
 ```bash
@@ -44,7 +44,7 @@ Options:
 ```
 
 
-Whipetail's examples:
+Whiptail's examples:
 
 ![Preview of the script using whiptail ](/screenshot_prompt.png)
 

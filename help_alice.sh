@@ -18,7 +18,7 @@ function ctrl_c() {
 }
 
 function dependencies() {
-	# Verify if whipetail is installed
+	# Verify if whiptail is installed
 	if ! [ -x "$(command -v whiptail)" ]; then
 		echo "Error: whiptail is not installed." >&2
 		echo "Please, install if you want to use the GUI"
