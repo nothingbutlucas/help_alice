@@ -1,7 +1,7 @@
 # help_alice
 Bash script to help Alice on Alice's Nightmare in Wonderland
 
-This script is intended to be used in conjunction with the bookgame: ![Alice's Nightmare in Wonderland](https://www.kickstarter.com/projects/jonathangreen/alices-nightmare-in-wonderland)
+This script is intended to be used in conjunction with the bookgame: [Alice's Nightmare in Wonderland](https://www.kickstarter.com/projects/jonathangreen/alices-nightmare-in-wonderland)
 
 
 
