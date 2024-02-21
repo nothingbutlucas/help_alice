@@ -23,7 +23,7 @@ function dependencies() {
 		echo "Error: whiptail is not installed." >&2
 		echo "Please, install if you want to use the GUI"
 		echo "Don't know how to install it? Let me help you:"
-		distribution=$(uname -n)
+		distribution=$(lsb_release -d 2>/dev/null || echo "ups Linux" | awk '{print $2}')
 		echo -e "\t https://lmddgtfy.net/?q=How%20to%20install%20whiptail%20on%20$distribution"
 		cli=true
 	fi
