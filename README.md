@@ -7,6 +7,8 @@ This script is intended to be used in conjunction with the bookgame: [Alice's Ni
 
 ## Installation
 
+Open a terminal and follow the instructions below
+
 It's a bash script so you can only download the script:
 
 ```bash
@@ -19,6 +21,8 @@ Then give it permissions
 chmod 744 help_alice.sh
 ```
 
+Ready to use! (See the usage section below)
+
 ## Usage
 
 ```bash
@@ -28,6 +32,7 @@ chmod 744 help_alice.sh
 By default it will try to run `whiptail`. If it is not available, you can install it or use it on CLI.
 
 If you want to see all the available options:
+
 ```bash
 ./help_alice.sh -h
 ```
