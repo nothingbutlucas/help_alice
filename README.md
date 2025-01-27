@@ -1,3 +1,5 @@
+# Check the mainteined version [here on Codeberg](https://codeberg.org/nothingbutlucas/help_alice)
+---
 # help_alice
 Bash script to help Alice on Alice's Nightmare in Wonderland
 
